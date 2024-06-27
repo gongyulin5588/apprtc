@@ -33,7 +33,8 @@ ICE_SERVER_OVERRIDE  = [
   },
   {
     "urls": [
-      "stun:stserver.immomo.com:3478"
+      "stun:stserver.immomo.com:3478",
+      "stun:stun.l.google.com:19302"
     ]
   }
 ]
