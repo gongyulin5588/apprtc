@@ -25,16 +25,9 @@ LOOPBACK_CLIENT_ID = 'LOOPBACK_CLIENT_ID'
 ICE_SERVER_OVERRIDE  = [
   {
     "urls": [
-        "turn:154.12.41.82:3478?transport=udp",
-        "turn:154.12.41.82:3478?transport=tcp"
-    ],
-    "username": "gongyulin",
-    "credential": "gongyulin"
-  },
-  {
-    "urls": [
       # "stun:stserver.immomo.com:3478"
-      "stun:43.231.169.13:3478"
+      "stun:43.231.169.13:3478",
+      "stun:stun.l.google.com:19302"
     ]
   }
 ]
