@@ -25,8 +25,7 @@ LOOPBACK_CLIENT_ID = 'LOOPBACK_CLIENT_ID'
 ICE_SERVER_OVERRIDE  = [
   {
     "urls": [
-      # "stun:stserver.immomo.com:3478"
-      "stun:43.231.169.13:3478",
+      "stun:stserver.immomo.com:3478",
       "stun:stun.l.google.com:19302"
     ]
   }
